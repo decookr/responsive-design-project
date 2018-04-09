@@ -1,0 +1,85 @@
+@media only screen and (min-width: 1140px) {
+
+.header-btn-sm {
+    display: none;
+}
+
+.shortcut-container-desktop {
+    display: block;
+    float: right;
+}
+.search-container {
+    float: left;
+    margin-right: 15px;
+}
+.sub-nav-search-box {
+    float: left;
+    border-top: 2px solid #c9c8c7;
+    border-left: 2px solid #c9c8c7;
+    border-bottom: 2px solid #c9c8c7;
+    border-right: none;
+    height: 30px;
+}
+
+
+.sub-nav-search-btn {
+    background-color: #425363;
+    color: white;
+    border: 2px solid #425363;
+    height: 30px;
+    font-size: 1.1em;
+    cursor: pointer;
+
+}
+.shortcut-btn {
+    height: 70px;
+    width: 70px;
+    background-color: #f98d29;
+    border: none;
+    color: white;
+    margin: 0 2px;
+}
+.shortcut-btn-icon {
+    font-size: 3em;
+}
+.shortcut-btn-text {
+    font-size: 0.7em;
+}
+
+
+.social-links {
+    margin: 1.5em 0 0.5em 0;
+    position: relative;
+    bottom: 120px;
+}
+
+.highlighted-links a {
+    position: relative;
+    left: 120px;
+    top: 32px;
+}
+
+/* <---- FOOTER ----> */
+.footer-2-col {
+    width: 50%;
+    float: left;
+}
+
+footer h2 {
+    padding: 0 0 15px 0;
+}
+
+.footer-1-col {
+    border-left: 2px solid rgba(255, 255, 255, 0.247);
+    width: 25%;
+    padding-left: 2em;
+}
+/*----- 12 COLUMN LAYOUT -----*/
+.column-3, .column-4, .column-6, .column-9, .column-12 {
+    float: left;
+}
+.column-3 {width: 25%;}
+.column-4 {width: 33.3333%;}
+.column-6 {width: 50%;}
+.column-9 {width: 75%;}
+} /*end of the media query */

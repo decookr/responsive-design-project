@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Site</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/phone-default.css">
+    <link rel="stylesheet" href="styles/tablet.css">
+    <link rel="stylesheet" href="styles/desktop.css">
+    <script src="vendors/jquery-3.2.1.js"></script>
+    <script defer src="vendors/fontawesome-all.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="top-bar">
+        <span class="top-bar-caret">
+            <span class="fas fa-caret-down"></span>
+        </span>
+    </div>
+
+    <!-- SIDE NAV -->
+    <div id="side-nav-wrapper" class="sidenav">
+
+        <div class="onet-menu" onclick="closeNav()">
+            <h2>Onet Menu</h2>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                <span class="fas fa-angle-right"></span>
+            </a>
+        </div>
+
+        <!-- SIDE NAV SUB MENU 1 -->
+        <div class="sub-menu-container">
+            <div class="sub-menu-header">
+                <div class="caret">
+                    <span class="fas fa-caret-right"></span>
+                </div>
+                <h2>Site Navigation</h2>
+            </div>
+            <div class="sub-menu-items">
+                <ul>
+                    <li>Home</li>
+                    <li>Departments</li>
+                    <li>Tools</li>
+                    <li>Associate Center</li>
+                    <li>Project Delivery</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SIDE NAV SUB MENU 2 -->
+        <div class="sub-menu-container">
+            <div class="sub-menu-header">
+                <div class="caret">
+                    <span class="fas fa-caret-right"></span>
+                </div>
+          
+                    <h2>My Links</h2>
+               
+            </div>
+            <div class="sub-menu-items">
+                <ul>
+                    <li>Home</li>
+                    <li>Departments</li>
+                    <li>Tools</li>
+                    <li>Associate Center</li>
+                    <li>Project Delivery</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SIDE NAV SUB MENU 3 -->
+        <div class="sub-menu-container">
+            <div class="sub-menu-header">
+                <div class="caret">
+                    <span class="fas fa-caret-right"></span>
+                </div>
+                <h2>Shortcuts</h2>
+            </div>
+            <div class="sub-menu-items">
+                <div class="shortcut-container-mobile">
+                    <button class="shortcut-btn">
+                        <div class="shortcut-btn-icon">
+                            <span class="fas fa-user"></span>
+                        </div>
+                        <div class="shortcut-btn-text">Directory</div>
+                    </button>
+                    <button class="shortcut-btn">
+                        <div class="shortcut-btn-icon">
+                            <span class="fas fa-map-marker"></span>
+                        </div>
+                        <div class="shortcut-btn-text">Location</div>
+                    </button>
+                    <button class="shortcut-btn">
+                        <div class="shortcut-btn-icon">
+                            <span class="fas fa-clock"></span>
+                        </div>
+                        <div class="shortcut-btn-text">Enter Time</div>
+                    </button>
+                    <button class="shortcut-btn">
+                        <div class="shortcut-btn-icon">
+                            <span class="fas fa-plane"></span>
+                        </div>
+                        <div class="shortcut-btn-text">Travel</div>
+                    </button>
+                    <button class="shortcut-btn">
+                        <div class="shortcut-btn-icon">
+                            <span class="fas fa-file-alt"></span>
+                        </div>
+                        <div class="shortcut-btn-text">Forms</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END SIDE NAV -->
+
+
+    <div id="main">
+
+        <!-- HEADER START -->
+        <div id="header-wrapper">
+            <header class="clearfix">
+                <div logo-container>
+                    <h1>LOGO</h1>
+                </div>
+                <div class="nav-btn-container">
+                    <button class="header-btn-sm" onclick="openNav()">
+                        <span class="fas fa-bars"></span>
+                    </button>
+                    <button class="header-btn-sm">
+                        <span class="fas fa-search"></span>
+                    </button>
+                </div>
+                <div class="shortcut-container-desktop">
+                    <form class="search-container">
+                        <input class="sub-nav-search-box" type="text" placeholder="Search" name="search">
+                        <button class="sub-nav-search-btn">GO</button>
+                    </form>
+                    <button class="shortcut-btn">
+                        <div class="shortcut-btn-icon">
+                            <span class="fas fa-user"></span>
+                        </div>
+                        <div class="shortcut-btn-text">Directory</div>
+                    </button>
+                    <button class="shortcut-btn">
+                        <div class="shortcut-btn-icon">
+                            <span class="fas fa-map-marker"></span>
+                        </div>
+                        <div class="shortcut-btn-text">Location</div>
+                    </button>
+                    <button class="shortcut-btn">
+                        <div class="shortcut-btn-icon">
+                            <span class="fas fa-clock"></span>
+                        </div>
+                        <div class="shortcut-btn-text">Enter Time</div>
+                    </button>
+                    <button class="shortcut-btn">
+                        <div class="shortcut-btn-icon">
+                            <span class="fas fa-plane"></span>
+                        </div>
+                        <div class="shortcut-btn-text">Travel</div>
+                    </button>
+                    <button class="shortcut-btn">
+                        <div class="shortcut-btn-icon">
+                            <span class="fas fa-file-alt"></span>
+                        </div>
+                        <div class="shortcut-btn-text">Forms</div>
+                    </button>
+                </div>
+            </header>
+        </div>
+        <div class="thin-bar-mobile"></div>
+        <!-- HEADER END -->
+
+
+
+        <!-- MAIN NAV TABLET/DESKTOP START -->
+        <div id="nav-wrapper">
+            <nav class="nav">
+                <ul class="primary-nav clearfix">
+                    <li>
+                        <a href="#departments">Departments</a>
+                    </li>
+                    <li>
+                        <a href="#departments">Tools</a>
+                    </li>
+                    <li>
+                        <a href="#departments">Associate Center</a>
+                    </li>
+                    <li>
+                        <a href="#departments">Project Delivery</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- MAIN NAV TABLET/DESKTOP END -->
+
+
+
+        <!-- CONTENT START -->
+        <div id="content-wrapper">
+            <section>
+                <div class="row">
+                    <article class="column-4">
+                        <div class="tile-container">
+                            <div class="tile-container-full">
+                                <img class="building-img" src="images/tile-lg.jpg" alt="building">
+                                <div class="content-news">
+                                    <h2>Company News</h2>
+                                    <h3>Military Service Provided Excellent Professional Training for Company Employee</h3>
+                                </div>
+                                <div class="date-stamp">
+                                    <span>12/25/17</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="column-4">
+                        <div class="tile-container">
+                            <div class="tile-container-half-3">
+                                <img class="tile-element-img" src="images/tile-md.jpg" alt="building">
+                                <div class="tile-element">
+                                    <h2>Ceo's Corner</h2>
+                                    <h3>Tile Title Element</h3>
+                                </div>
+                                <div class="date-stamp">
+                                    <span>12/25/17</span>
+                                </div>
+                            </div>
+                            <div class="tile-container-quarter-1">
+                                <img class="building-img" src="images/tile-lg.jpg" alt="building">
+                                <div class="content-news-sm">
+                                    <h3>The Latest News and Buzz On Company Projects</h3>
+                                </div>
+                                <div class="date-stamp">
+                                    <span>12/25/17</span>
+                                </div>
+                            </div>
+                            <div class="tile-container-quarter-2">
+                                <img class="building-img" src="images/tile-lg.jpg" alt="building">
+                                <div class="content-news-sm">
+                                    <h3>The Latest News and Buzz On Company Projects</h3>
+                                </div>
+                                <div class="date-stamp">
+                                    <span>12/25/17</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="column-4 ">
+                        <div class="tile-container">
+                            <div class="tile-container-half-1">
+                                <img class="tile-element-img " src="images/tile-md.jpg" alt="building">
+                                <div class="tile-element">
+                                    <h2>Company News</h2>
+                                    <h3>Tile Title Element</h3>
+                                </div>
+                                <div class="date-stamp">
+                                    <span>12/25/17</span>
+                                </div>
+                            </div>
+                            <div class="tile-container-half-2">
+                                <img class="tile-element-img" src="images/tile-md.jpg" alt="building">
+                                <div class="tile-element">
+                                    <h2>Company News</h2>
+                                    <h3>Tile Title Element</h3>
+                                </div>
+                                <div class="date-stamp">
+                                    <span>12/25/17</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="column-4">
+                        <div class="tile-container">
+                            <div class="tile-container-half-4">
+                                <div class="tile-element-links">
+                                    <ul>MARKET NEWS
+                                        <li>
+                                            <a>Student Housing Heats Up in St. Louis - 10/27/14</a>
+                                        </li>
+                                        <li>
+                                            <a>Company Selected as Developer for Seven - 10/25/14</a>
+                                        </li>
+                                        <li>
+                                            <a>Minneapolis Leaders Welcome Downtown - 9/30/14</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="view-more">
+                                    <a href="">
+                                        <h4>+ View More</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tile-container-half-4">
+                                <div class="tile-element-links">
+                                    <ul>ANNOUNCEMENTS
+                                        <li>
+                                            <a>Student Housing Heats Up in St. Louis - 10/27/14</a>
+                                        </li>
+                                        <li>
+                                            <a>Company Selected as Developer for Seven - 10/25/14</a>
+                                        </li>
+                                        <li>
+                                            <a>Minneapolis Leaders Welcome Downtown - 9/30/14</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="view-more">
+                                    <a href="#">
+                                        <h4>+ View More</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="column-4">
+                        <div class="collapse-container">
+                            <div class="tile-colorbar sub-menu-header">
+                                <div class="caret">
+                                    <span class="fas fa-caret-right"></span>
+                                </div>
+                                <h2>Recently Signed</h2>
+                            </div>
+                            <div class="tile-list">
+                                <div class="tile-list-item">
+                                    <img src="images/Community-Power-Corporation_1059_750x501.jpg" alt="">
+                                    <div class="tile-list-text">
+                                        <h3>Character Communications</h3>
+                                        <h4>12/24/2014</h4>
+                                        <p>Minneapolis, St. Paul</p>
+                                    </div>
+                                </div>
+                                <div class="tile-list-item">
+                                    <img src="images/Community-Power-Corporation_1059_750x501.jpg" alt="">
+                                    <div class="tile-list-text">
+                                        <h3>Character Communications</h3>
+                                        <h4>12/24/2014</h4>
+                                        <p>Minneapolis, St. Paul</p>
+                                    </div>
+                                </div>
+                                <div class="tile-list-item">
+                                    <img src="images/Community-Power-Corporation_1059_750x501.jpg" alt="">
+                                    <div class="tile-list-text">
+                                        <h3>Character Communications</h3>
+                                        <h4>12/24/2014</h4>
+                                        <p>Minneapolis, St. Paul</p>
+                                    </div>
+                                </div>
+                                <div class="tile-list-item">
+                                    <img src="images/Community-Power-Corporation_1059_750x501.jpg" alt="">
+                                    <div class="tile-list-text">
+                                        <h3>Character Communications</h3>
+                                        <h4>12/24/2014</h4>
+                                        <p>Minneapolis, St. Paul</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="column-4">
+                        <div class="collapse-container">
+                            <div class="tile-colorbar sub-menu-header">
+                                <div class="caret">
+                                    <span class="fas fa-caret-right"></span>
+                                </div>
+                                <h2>Upcoming Events</h2>
+                            </div>
+                            <div class="tile-list">
+                                <div class="tile-list-item">
+                                    <div class="event-date-tile">
+                                        <div class="event-date-text">
+                                            <h2>24</h2>
+                                            <h3>NOV</h3>
+                                        </div>
+                                    </div>
+                                    <div class="tile-list-text">
+                                        <h3>Event Title Celebration Gala</h3>
+                                        <h4>6:00pm - 8:00pm</h4>
+                                        <p>Minneapolis, MN</p>
+                                    </div>
+                                </div>
+                                <div class="tile-list-item">
+                                    <div class="event-date-tile">
+                                        <div class="event-date-text">
+                                            <h2>24</h2>
+                                            <h3>NOV</h3>
+                                        </div>
+                                    </div>
+                                    <div class="tile-list-text">
+                                        <h3>Event Title Celebration Gala</h3>
+                                        <h4>6:00pm - 8:00pm</h4>
+                                        <p>Minneapolis, MN</p>
+                                    </div>
+                                </div>
+                                <div class="tile-list-item">
+                                    <div class="event-date-tile">
+                                        <div class="event-date-text">
+                                            <h2>24</h2>
+                                            <h3>NOV</h3>
+                                        </div>
+                                    </div>
+                                    <div class="tile-list-text">
+                                        <h3>Event Title Celebration Gala</h3>
+                                        <h4>6:00pm - 8:00pm</h4>
+                                        <p>Minneapolis, MN</p>
+                                    </div>
+                                </div>
+                                <div class="tile-list-item">
+                                    <div class="event-date-tile">
+                                        <div class="event-date-text">
+                                            <h2>24</h2>
+                                            <h3>NOV</h3>
+                                        </div>
+                                    </div>
+                                    <div class="tile-list-text">
+                                        <h3>Event Title Celebration Gala</h3>
+                                        <h4>6:00pm - 8:00pm</h4>
+                                        <p>Minneapolis, MN</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <!-- CONTENT END -->
+
+
+        <div class="body-bottom ">
+            <div class="clearfix">
+                <img src="images/minneapolis_skyline_5415.png" class="bottom-img clearfix" alt="skyline">
+            </div>
+        </div>
+
+
+        <!-- FOOTER START -->
+        <footer>
+            <div id="footer-container" class="clearfix">
+                <div class="social-links">
+                    <div class="highlighted-links">
+                        <span>
+                            <a href="">FEEDBACK</a>
+                        </span>
+                        <span>
+                            <a href="">SUPPORT</a>
+                        </span>
+                        <span>
+                            <a href="">COMPANY-GROUP.COM</a>
+                        </span>
+                    </div>
+                    <div class="social-logos">
+                        <span>
+                            <a href="">
+                                <img src="images/googleplus-logo-official.png" alt="">
+                            </a>
+                        </span>
+                        <span>
+                            <a href="">
+                                <img src="images/Twitter_Social_Icon_Square_Color.png" alt="">
+                            </a>
+                        </span>
+                        <span>
+                            <a href="">
+                                <img src="images/Youtube-logo-red.png" alt="">
+                            </a>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="footer-2-col clearfix">
+                        <h2>Departments</h2>
+                        <ul id="double">
+                            <li>
+                                <a href="">Information Technology</a>
+                            </li>
+                            <li>
+                                <a href="">Associate Center</a>
+                            </li>
+                            <li>
+                                <a href="">Legal</a>
+                            </li>
+                            <li>
+                                <a href="">Accounting</a>
+                            </li>
+                            <li>
+                                <a href="">Construction</a>
+                            </li>
+                            <li>
+                                <a href="">Marketing</a>
+                            </li>
+                            <li>
+                                <a href="">Company AE</a>
+                            </li>
+                            <li>
+                                <a href="">Risk</a>
+                            </li>
+                            <li>
+                                <a href="">Forms</a>
+                            </li>
+                            <li>
+                                <a href="">Real Estate</a>
+                            </li>
+                            <li>
+                                <a href="">Facilities</a>
+                            </li>
+                            <li>
+                                <a href="">OPL</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-1-col">
+                        <h2>Technical Support</h2>
+                        <ul>
+                            <li>
+                                <a href="">Time Tracking</a>
+                            </li>
+                            <li>
+                                <a href="">Technical Support</a>
+                            </li>
+                            <li>
+                                <a href="">ONET Frequently Asked Questions</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-1-col">
+                        <h2>Applications</h2>
+                        <ul>
+                            <li>
+                                <a href="">Time Tracking</a>
+                            </li>
+                            <li>
+                                <a href="">Technical Support</a>
+                            </li>
+                            <li>
+                                <a href="">ONET Frequently Asked Questions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
