@@ -87,25 +87,19 @@ h2 {
 
 .sub-menu-header h2 {
     display: inline;
+    position: relative;
+    top: -3px;
     padding-left: 22px;
 }
 
 .caret {
     font-size: 1.5em;
-    /* height: 0px; */
-    /* width: 5px; */
     position: relative;
-    top: -3px;
     display: inline-block;
-    left: 2px;
 }
 
 .sub-menu-container.open .caret {
     transform: rotate(90deg);
-
-    /* position: relative; */
-    /* top: 6px;
-    left: 16px; */
 }
 
 .sub-menu-container .caret {
@@ -167,7 +161,7 @@ h2 {
 /*-----HEADER -----*/
 
 #header-wrapper {
-    padding: 2em 2%;
+    padding: 2em 1em;
 }
 
 .logo-container {
@@ -176,7 +170,6 @@ h2 {
 
 header h1 {
     font-size: 3em;
-    /* padding: .5rem 0; */
     float: left;
 }
 
@@ -206,7 +199,7 @@ header h1 {
 
 /*-----CONTENT -----*/
 #content-wrapper {
-    padding: 2% 2%;
+    padding: 2% .5em;
 }
 
 #content-wrapper .row:after {
@@ -368,7 +361,7 @@ article div h3 {
 }
 
 .collapse-container.open .tile-list {
-    height:400px;
+    height:308px;
     transition: 0.3s;
 
 }
@@ -377,8 +370,6 @@ article div h3 {
     transition: 0.3s;
     transform: rotate(90deg);
     position: relative;
-    top: 6px;
-    left: 16px;
 }
 .collapse-container .caret {
     transition: 0.3s;
@@ -397,38 +388,40 @@ article div h3 {
 .tile-list-item {
     height: 0;
     width: 100%;
-    padding-bottom:22%;
+    padding-bottom:24%;
 }
 .tile-list img {
-    width: 28%;
+    height: 70px;
     float: left;
 }
 
 .tile-list-text {
     padding: 4% 0 4% .4em;
-    /* overflow: hidden; */
     float: left;
     width: calc(100% - 70px);
 }
+
+.tile-list-text.signed {
+    width: calc(100% - 110px);
+}
 .tile-list-text h3 {
     color: black;
-    font-size: .9rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
 .tile-list-text h4 {
-    font-size: .6rem;
+    font-size: .7rem;
 }
 
 .tile-list-text p {
-    font-size: .7rem;
+    font-size: .8rem;
 }
 
 .event-date-tile {
     float: left;
     width: 70px;
     height: 70px;
-    /* padding-bottom: 20%; */
     background-color: #425363;
 }
 .event-date-text {
@@ -522,7 +515,7 @@ footer li {
     color: #f98d29;
     list-style: square;
     margin-left: 3em;
-    line-height: 1.5;
+    padding: .4em;
 }
 
 .footer-2-col li {
