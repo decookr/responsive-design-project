@@ -397,10 +397,10 @@ article div h3 {
 .tile-list-item {
     height: 0;
     width: 100%;
-    padding-bottom:24%;
+    /* padding-bottom:24%; */
 }
 .tile-list img {
-    height: 70px;
+    height: 63px;
     float: left;
 }
 
@@ -411,7 +411,7 @@ article div h3 {
 }
 
 .tile-list-text.signed {
-    width: calc(100% - 110px);
+    width: calc(100% - 100px);
 }
 .tile-list-text h3 {
     color: black;
@@ -429,8 +429,8 @@ article div h3 {
 
 .event-date-tile {
     float: left;
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     background-color: #425363;
 }
 .event-date-text {
