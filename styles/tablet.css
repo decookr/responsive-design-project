@@ -26,9 +26,12 @@ nav {
     display: flex;
     text-transform: uppercase;
 }
+.welcome-user {
+    display: none;
+}
 
 nav ul {
-    justify-content: space-between;
+    justify-content: none;
 }
 
 nav ul li {
@@ -42,7 +45,7 @@ nav ul li:nth-child(3) {
 nav ul li:first-child{
     text-align: left;
 }
-nav ul li:last-child{
+nav ul li:nth-child(4){
     text-align: right;
     flex-grow: 0.5;
 }
@@ -101,7 +104,7 @@ article div h2, h3 {
 }
 
 footer {
-    padding: 1% 9% 4% 9%;
+    padding: 1% 3em 4% 3em;
 }
 /*----- 12 COLUMN LAYOUT -----*/
 .column-3, .column-4, .column-6, .column-9, .column-12 {
