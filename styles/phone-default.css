@@ -41,14 +41,18 @@ h2 {
 
 .sidenav {
     height: 100%;
-    width: 0;
+    width: 330px;
     position: fixed;
     z-index: 1;
     top: 0;
-    right: 0;
+    right: -330px;;
     background-color: #595959;
-    overflow-x: hidden;
-    transition: 0.3s;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.sidenav.open {
+    right: 0px;
 }
 
 .sidenav a {
@@ -57,7 +61,13 @@ h2 {
 }
 
 #main {
-    transition: 0.3s;
+    position: relative;
+    transition: 0.5s;
+    left: 0px;
+}
+
+#main.open {
+    left: -330px;
 }
 
 .closebtn {
@@ -105,7 +115,7 @@ h2 {
     transform: rotate(0deg);
     transform-origin: 50% 50%;
     position: relative;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .sub-menu-items ul {
@@ -113,7 +123,7 @@ h2 {
 }
 
 .sub-menu-container .sub-menu-items {
-    transition: 0.3s;
+    transition: 0.5s;
     overflow: hidden;
     height: 0;
     background-color: #363636;
