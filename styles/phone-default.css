@@ -6,6 +6,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
     font-weight: 400;
+    background-color: #425363;
 }
 
 @media only screen and (max-width: 340px) {
@@ -18,25 +19,6 @@ h2 {
     text-transform: uppercase;
 }
 
-
-/*-----COLOR BAR -----*/
-.top-bar-caret {
-    color: white;
-    background-color: #425363;
-    display: block;
-    border-radius: 50%;
-    padding: 0 2px 2px 2px;
-    margin: 0 auto;
-    width: 20px;
-}
-
-.top-bar {
-    height: 10px; 
-    background-color: #425363;
-    text-align: center;
-}
-
-
 /*-----SIDE NAV -----*/
 
 .sidenav {
@@ -44,10 +26,10 @@ h2 {
     width: 330px;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 10px;
     right: -330px;;
     background-color: #595959;
-    overflow: hidden;
+    overflow: auto;
     transition: 0.5s;
 }
 
@@ -64,6 +46,7 @@ h2 {
     position: relative;
     transition: 0.5s;
     left: 0px;
+    background-color: white;
 }
 
 #main.open {
@@ -98,7 +81,7 @@ h2 {
     display: inline;
     position: relative;
     top: -3px;
-    padding-left: 22px;
+    padding-left: 7px;
 }
 
 .caret {
@@ -119,26 +102,29 @@ h2 {
 }
 
 .sub-menu-items ul {
-    padding-top: 10px;
+    padding-top: 14px;
 }
 
 .sub-menu-container .sub-menu-items {
     transition: 0.5s;
     overflow: hidden;
-    height: 0;
+    max-height:0px;
+    height: 0px;
     background-color: #363636;
     text-transform: uppercase;
 }
 
 .sub-menu-container.open .sub-menu-items {
-    height: 190px;
+    height: 200px;
+    max-height: 210px;
     background-color: #363636;
+    transition: 0.5s;
 }
 
  .sub-menu-items li {
     list-style: square;
     padding: 9px 0;
-    margin-left:15%;
+    margin-left:17%;
     color: white;
     height: auto;
 }  
@@ -165,6 +151,24 @@ h2 {
 }
 /*----- END SIDE NAV -----*/
 
+
+/*-----COLOR BAR -----*/
+.top-bar-caret {
+    color: white;
+    background-color: #425363;
+    display: block;
+    border-radius: 50%;
+    padding: 0 2px 2px 2px;
+    margin: 0 auto;
+    width: 20px;
+    z-index: 1;
+}
+
+.top-bar {
+    height: 10px; 
+    background-color: #425363;
+    text-align: center;
+}
 
 
 /*-----HEADER -----*/
@@ -344,7 +348,7 @@ article div h3 {
 }
 
 .market-news:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: 1px;
 }
 .market-news h2 {
     color: #425363;
@@ -357,7 +361,7 @@ article div h3 {
 }
 
 .market-news.open .tile-element-links {
-    height: 110px;
+    height: 8em;
     padding-bottom: 0;
 }
 
@@ -384,7 +388,7 @@ article div h3 {
 }
 
 .tile-element-links ul {
-    padding: 0 1% 0 3%;
+    padding: 0 1% 0 4%;
 }
 .tile-element-links li {
     margin-left: 1.3em;

@@ -60,6 +60,8 @@ article div h2, h3 {
 }
 .tile-colorbar.market-news.sub-menu-header{
     padding-bottom: 0;
+    padding-top: 13px;
+    padding-left: 10px;
 }
 
 .market-news {
@@ -67,7 +69,7 @@ article div h2, h3 {
 }
 
 .market-news .tile-element-links  {
-    height: 110px;
+    height: 8em;
 }
 
 .market-news.open .caret {
@@ -78,7 +80,7 @@ article div h2, h3 {
 }
 
 .tile-colorbar.sub-menu-header h2 {
-    padding-left:0;
+    padding-left:3px;
 }
 .collapse-container {
     height: 0;
