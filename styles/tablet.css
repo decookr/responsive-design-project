@@ -58,6 +58,24 @@ nav ul li a {
 article div h2, h3 {
     font-size: 1.0em;
 }
+.tile-colorbar.market-news.sub-menu-header{
+    padding-bottom: 0;
+}
+
+.market-news {
+    padding-bottom: 47.5%;
+}
+
+.market-news .tile-element-links  {
+    height: 110px;
+}
+
+.market-news.open .caret {
+    display: none;
+}
+.market-news .caret {
+    display: none;
+}
 
 .tile-colorbar.sub-menu-header h2 {
     padding-left:0;
@@ -71,7 +89,6 @@ article div h2, h3 {
     height: 0;
     padding-bottom:100%;
     transition: 0.3s;
-
 }
 
 .collapse-container .tile-list {
@@ -83,23 +100,6 @@ article div h2, h3 {
 .collapse-container.open .tile-list {
     height:308px;
     transition: 0.3s;
-
-}
-.market-news .tile-element-links  {
-    height: 130px;
-    overflow: hidden;
-    transition: 0.3s;
-}
-
-.market-news.open .tile-element-links {
-    height: 130px;
-    padding-bottom: 0;
-}
-.market-news.open .caret {
-    display: none;
-}
-.market-news .caret {
-    display: none;
 }
 .collapse-container.open .caret {
     display: none;
