@@ -1,7 +1,7 @@
 // sidenav toggle open/close
 $(document).ready(function () {
     $(".toggle-sidenav").click(function () {
-        $("#side-nav-wrapper, #main").toggleClass("open");
+        $("#side-nav-wrapper, #main, body").toggleClass("open");
     });
 });
 
@@ -11,3 +11,5 @@ $(document).ready(function () {
         $(this).parent().toggleClass("open");
     });
 });
+
+

@@ -58,6 +58,10 @@ h2 {
     color: white;
 }
 
+body.open {
+    overflow: hidden;
+}
+
 .onet-menu {
     border-bottom: 3px solid #363636;
     color: white;
