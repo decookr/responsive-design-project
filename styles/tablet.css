@@ -85,7 +85,22 @@ article div h2, h3 {
     transition: 0.3s;
 
 }
+.market-news .tile-element-links  {
+    height: 130px;
+    overflow: hidden;
+    transition: 0.3s;
+}
 
+.market-news.open .tile-element-links {
+    height: 130px;
+    padding-bottom: 0;
+}
+.market-news.open .caret {
+    display: none;
+}
+.market-news .caret {
+    display: none;
+}
 .collapse-container.open .caret {
     display: none;
 
