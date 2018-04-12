@@ -37,7 +37,7 @@ h2 {
     right: 0px;
 }
 
-.sidenav a {
+.onet-menu > a {
     text-decoration: none;
     font-size: 25px;
 }
@@ -123,10 +123,12 @@ body.open {
     max-height: 210px;
     background-color: #363636;
     transition: 0.5s;
-    /* padding-top: 15px; */
 }
 
- .sub-menu-items li {
+.sub-menu-items a {
+    text-decoration: none;
+}
+ .sub-menu-items a li {
     list-style: square;
     padding: 9px 0;
     margin-left:17%;
@@ -406,8 +408,6 @@ article div h3 {
     text-decoration: underline;
 }
 
-
-
 .collapse-container {
     height: 0;
     padding-bottom:10%;
@@ -446,8 +446,6 @@ article div h3 {
     padding: 2%;
     margin-bottom: .5rem;
 }
-
-
 
 .tile-colorbar h2 {
     margin-bottom: 0;
@@ -520,8 +518,8 @@ article div h3 {
 	padding: .5em;
 }
 
-/*----- SOCIAL LINKS TEST START-----*/
-/*----- SOCIAL LINKS TEST START-----*/
+
+/*----- SOCIAL LINKS & CITYSCAPE -----*/
 
 .body-bottom-container {
     display: flex;
@@ -578,58 +576,6 @@ article div h3 {
     height: 15px;
     background-color: #5d7e95;
 }
-
-/*----- SOCIAL LINKS TEST END-----*/
-/*----- SOCIAL LINKS TEST END-----*/
-
-
-
-
-
-
-
-/*----- SOCIAL LINKS -----*/
-
-/* .social-links {
-    margin: 1.5em 0 0.5em 0;
-}
-
-.highlighted-links a {
-    color: #f98d29;
-    font-weight: 600;
-    font-size: .7em;
-    text-decoration: none;
-}
-
-.social-logos {
-    padding-top: 1em;
-}
-
-.social-logos span {
-    padding-right: .5em;
-}
-
-.social-logos span img {
-    width: 20px;
-}
-.social-logos a {
-    text-decoration: none;
-}
-.highlighted-links span {
-    padding-right: 2em;
-} */
-
-/*----- CITYSCAPE CONTENT BOTTOM BORDER-----*/
-
-/* .body-bottom {
-    border-bottom: 15px solid #5d7e95;
-}
-
-.bottom-img {
-    float: right;
-    width: 300px;
-    margin-right: 2%;
-} */
 
 
 /*----- FOOTER -----*/
