@@ -114,10 +114,17 @@ article div h2, h3 {
 .tile-colorbar h2 {
     top:0;
 }
-.bottom-img {
-    float: right;
+
+.social-logos, .skyline-img-container {
+    padding: 0 3em;
+}
+
+.highlighted-links {
+    padding: 1em 3em;
+}
+
+.skyline-img {
     width: 500px;
-    margin-right: 7%;
 }
 
 footer {
