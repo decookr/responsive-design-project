@@ -128,7 +128,7 @@ article div h2, h3 {
 }
 
 footer {
-    padding: 1% 3em 4% 3em;
+    padding: 1em 3em 4% 3em;
 }
 /*----- 12 COLUMN LAYOUT -----*/
 .column-3, .column-4, .column-6, .column-9, .column-12 {

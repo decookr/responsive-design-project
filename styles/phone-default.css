@@ -637,7 +637,7 @@ article div h3 {
 footer {
     background-color: #425363;
     color: white;
-    padding: 2% 1em 6% 1em;
+    padding: 1em 1em 6% 1em;
 }
 
 footer ul {
@@ -646,7 +646,7 @@ footer ul {
 }
 
 footer h2 {
-    padding: 20px 0 10px 0;
+    padding: 5px 0 10px 0;
 }
 footer li {
     color: #f98d29;
@@ -655,9 +655,14 @@ footer li {
     padding: .4em;
 }
 
+.footer-2-col, .footer-1-col {
+    padding-bottom: 1em;
+}
+
 .footer-2-col li {
     float: left;
 }
+
 
 /* TWO COLUMN LIST */
 #double li  {
