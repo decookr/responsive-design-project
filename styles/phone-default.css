@@ -37,7 +37,7 @@ h2 {
     right: 0px;
 }
 
-.sidenav a {
+.onet-menu > a {
     text-decoration: none;
     font-size: 25px;
 }
@@ -123,10 +123,12 @@ body.open {
     max-height: 210px;
     background-color: #363636;
     transition: 0.5s;
-    /* padding-top: 15px; */
 }
 
- .sub-menu-items li {
+.sub-menu-items a {
+    text-decoration: none;
+}
+ .sub-menu-items a li {
     list-style: square;
     padding: 9px 0;
     margin-left:17%;
@@ -406,8 +408,6 @@ article div h3 {
     text-decoration: underline;
 }
 
-
-
 .collapse-container {
     height: 0;
     padding-bottom:10%;
@@ -446,8 +446,6 @@ article div h3 {
     padding: 2%;
     margin-bottom: .5rem;
 }
-
-
 
 .tile-colorbar h2 {
     margin-bottom: 0;
@@ -521,23 +519,38 @@ article div h3 {
 }
 
 
-/*----- SOCIAL LINKS -----*/
+/*----- SOCIAL LINKS & CITYSCAPE -----*/
 
-.social-links {
-    margin: 1.5em 0 0.5em 0;
+.body-bottom-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
+.highlighted-links, .social-logos, .skyline-img-container {
+    padding: 0 1em;
+}
+
+.highlighted-links {
+    align-self: stretch;
+    background-color: #425363;
+    padding: 1em;
+}
 .highlighted-links a {
     color: #f98d29;
     font-weight: 600;
     font-size: .7em;
     text-decoration: none;
 }
-
-.social-logos {
-    padding-top: 1em;
+.highlighted-links span {
+    padding-right: 2em;
 }
 
+.social-logos {
+    align-self: stretch;
+    background-color: #425363;
+}
 .social-logos span {
     padding-right: .5em;
 }
@@ -548,28 +561,29 @@ article div h3 {
 .social-logos a {
     text-decoration: none;
 }
-.highlighted-links span {
-    padding-right: 2em;
+
+.skyline-img-container{
+    align-self: flex-end;
 }
-
-/*----- CITYSCAPE CONTENT BOTTOM BORDER-----*/
-
-.body-bottom {
-    border-bottom: 15px solid #5d7e95;
-}
-
-.bottom-img {
-    float: right;
+.skyline-img {
     width: 300px;
-    margin-right: 2%;
+    position: relative;
+    top: 3px;
+}
+
+.bottom-colorbar {
+    width: 100%;
+    height: 15px;
+    background-color: #5d7e95;
 }
 
 
 /*----- FOOTER -----*/
+
 footer {
     background-color: #425363;
     color: white;
-    padding: 2% 1em 6% 1em;
+    padding: 1em 1em 6% 1em;
 }
 
 footer ul {
@@ -578,7 +592,7 @@ footer ul {
 }
 
 footer h2 {
-    padding: 20px 0 10px 0;
+    padding: 5px 0 10px 0;
 }
 footer li {
     color: #f98d29;
@@ -587,9 +601,14 @@ footer li {
     padding: .4em;
 }
 
+.footer-2-col, .footer-1-col {
+    padding-bottom: 1em;
+}
+
 .footer-2-col li {
     float: left;
 }
+
 
 /* TWO COLUMN LIST */
 #double li  {

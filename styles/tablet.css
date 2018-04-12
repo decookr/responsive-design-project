@@ -114,14 +114,21 @@ article div h2, h3 {
 .tile-colorbar h2 {
     top:0;
 }
-.bottom-img {
-    float: right;
+
+.social-logos, .skyline-img-container {
+    padding: 0 3em;
+}
+
+.highlighted-links {
+    padding: 1em 3em;
+}
+
+.skyline-img {
     width: 500px;
-    margin-right: 7%;
 }
 
 footer {
-    padding: 1% 3em 4% 3em;
+    padding: 1em 3em 4% 3em;
 }
 /*----- 12 COLUMN LAYOUT -----*/
 .column-3, .column-4, .column-6, .column-9, .column-12 {
