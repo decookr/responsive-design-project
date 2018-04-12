@@ -123,6 +123,7 @@ body.open {
     max-height: 210px;
     background-color: #363636;
     transition: 0.5s;
+    /* padding-top: 15px; */
 }
 
  .sub-menu-items li {
