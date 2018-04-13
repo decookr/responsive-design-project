@@ -217,9 +217,115 @@ header h1 {
     display: none;
 }
 
+/*-----CONTENT FLEX TEST-----*/
+/*-----CONTENT FLEX TEST-----*/
+h2, h3 {
+    padding: .75rem .75em 0 .75em;
+    line-height: 1.2em;
+}
+h2 {
+    text-transform: uppercase;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    margin: .5em;
+}
+
+.item-container {
+    padding: .5em;
+}
+
+.tile-item {
+    height: 0;
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: lightblue;
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+}
+.half-height {
+    padding-bottom: 48%;
+    margin-bottom: 4%;
+}
+.half-width {
+    width: 48%;
+    font-size: .8rem;
+}
+
+.left {
+    float: left;
+    margin-right: 2%;
+}
+
+.right {
+    float: right;
+    margin-left: 2%;
+}
+
+.half-width h2 {
+    text-transform: none;
+}
+
+.img-full-width {
+    width: 100%;
+}
+
+.img-partial-width {
+    width: 43.5%;
+    float: left;
+    margin-right: .75em;
+}
+
+.date-stamp {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #C9C8C7;
+    font-size: .6em;
+}
+
+.view-more {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.bg-color-1 {
+    background-color: #003DA7;
+}
+.bg-color-2 {
+    background-color: #f98d29;
+}
+.bg-color-3 {
+    background-color: #606d77;
+}
+.bg-color-4 {
+    background-color: #5d7e95;
+}
+.bg-color-5 {
+    background-color: #595959;
+}
+.bg-color-6 {
+    background-color: #C9C8C7;
+    color: #425363
+}
+
+.tile-element-links {
+    font-size: .8em;
+}
+
+
+/*-----CONTENT FLEX TEST END -----*/
+/*-----CONTENT FLEX TEST END -----*/
+
+
 /*-----CONTENT -----*/
+
 #content-wrapper {
-    padding: 2% .5em;
+    /* margin: 1em; */
 }
 
 #content-wrapper .row:after {
@@ -290,12 +396,7 @@ header h1 {
     padding-bottom: 47.5%;
     margin: 1rem 0 0 .45rem;
 }
-.date-stamp {
-    float: right;
-    padding-right: 4%;
-    color: #C9C8C7;
-    font-size: .6em;
-}
+
 .building-img {
     width: 100%;
     display: block;
@@ -314,10 +415,10 @@ header h1 {
     padding-bottom: 27%;
 }
 
-article div h2, h3 {
+/* article div h2, h3 {
     font-size: 1.1em;
     color: white;
-}
+} */
 
 article div h2 {
     margin-bottom: 15px;
@@ -500,11 +601,11 @@ article div h3 {
 .event-date-tile h3 {
     font-size: 1em;
 }
-.view-more {
+/* .view-more {
     position: relative;
     top: 20px;
     right: 15px;
-}
+} */
 .view-more a {
     text-align: right;
     color: #425363;
