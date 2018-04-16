@@ -93,6 +93,36 @@ article div h2, h3 {
 .item-container:nth-of-type(6) {
     order: 6;
 }
+
+.tile-item.half-height.bg-color-6 {
+    height: 0;
+    padding-bottom: 48%;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.tile-item.half-height.bg-color-6.open .caret {
+    display: none
+}
+
+.tile-item.half-height.bg-color-6 .caret {
+    display: none;
+}
+.collapse-header h2 {
+    display: block;
+    padding: .4em .4em;
+}
+.tile-item.collapse-container-full {
+    padding-bottom: 100%;
+}
+
+.tile-item.collapse-container-full.open .caret {
+    display: none;
+}
+
+.tile-item.collapse-container-full .caret {
+    display: none;
+}
 /*-----CONTENT FLEX TEST END -----*/
 /*-----CONTENT FLEX TEST END -----*/
 
