@@ -4,6 +4,10 @@
     margin: 0 5%;
 }
 
+#content-wrapper {
+    margin-top: 1em;
+}
+
 /*----- NAVIGATION -----*/
 .site-nav-mobile {
     display: none;
@@ -59,9 +63,10 @@ article div h2, h3 {
     font-size: 1.0em;
 }
 
-/*-----CONTENT FLEX TEST-----*/
-/*-----CONTENT FLEX TEST-----*/
-
+/*-----CONTENT-----*/
+.sub-menu-header h2 {
+    top: 0;
+}
 .content-container {
     flex-wrap: wrap;
     flex-direction: row;
@@ -69,10 +74,6 @@ article div h2, h3 {
 
 .item-container {
     width: 50%;
-}
-
-.tile-item {
-
 }
 
 .item-container:nth-of-type(1) {
@@ -109,8 +110,7 @@ article div h2, h3 {
     display: none;
 }
 .collapse-header h2 {
-    display: block;
-    padding: .4em .4em;
+   padding: .4em 0 0 .4em;
 }
 .tile-item.collapse-container-full {
     padding-bottom: 100%;
@@ -123,68 +123,7 @@ article div h2, h3 {
 .tile-item.collapse-container-full .caret {
     display: none;
 }
-/*-----CONTENT FLEX TEST END -----*/
-/*-----CONTENT FLEX TEST END -----*/
-
-
-
-
-.tile-colorbar.market-news.sub-menu-header{
-    padding-bottom: 0;
-    padding-top: 13px;
-    padding-left: 10px;
-}
-
-.market-news {
-    padding-bottom: 47.5%;
-}
-
-.market-news .tile-element-links  {
-    height: 8em;
-}
-
-.market-news.open .caret {
-    display: none;
-}
-.market-news .caret {
-    display: none;
-}
-
-.tile-colorbar.sub-menu-header h2 {
-    padding-left:3px;
-}
-.collapse-container {
-    height: 0;
-    padding-bottom:100%;
-    transition: 0.3s;
-}
-.collapse-container.open {
-    height: 0;
-    padding-bottom:100%;
-    transition: 0.3s;
-}
-
-.collapse-container .tile-list {
-    height:308px;
-    overflow: hidden;
-    transition: 0.3s;
-}
-
-.collapse-container.open .tile-list {
-    height:308px;
-    transition: 0.3s;
-}
-.collapse-container.open .caret {
-    display: none;
-
-}
-.collapse-container .caret {
-    display: none;
-}
-
-.tile-colorbar h2 {
-    top:0;
-}
+/*-----CONTENT END -----*/
 
 .social-logos, .skyline-img-container {
     padding: 0 3em;
@@ -201,15 +140,6 @@ article div h2, h3 {
 footer {
     padding: 1em 3em 4% 3em;
 }
-/*----- 12 COLUMN LAYOUT -----*/
-.column-3, .column-4, .column-6, .column-9, .column-12 {
-    float: left;
-}
-.column-3 {width: 25%;}
-.column-4 {width: 50%;}
-.column-6 {width: 50%;}
-.column-9 {width: 75%;}
-
 
  
     
