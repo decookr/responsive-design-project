@@ -121,8 +121,11 @@ nav ul li:nth-child(4){
 }
 .skyline-img-container, .highlighted-links {
     padding: 0;
-    padding-right: 4em;
 }
+.skyline-img-container {
+    margin-right: 4em;
+}
+
 .bottom-colorbar {
     order: 1;
 }
@@ -151,6 +154,7 @@ nav ul li:nth-child(4){
 
 footer {
     padding-left:6%;
+    padding-top: 1.75em;
 }
 .footer-2-col {
     width: 50%;
