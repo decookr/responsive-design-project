@@ -3,7 +3,6 @@
 #header-wrapper, #content-wrapper {
     margin: 0 5%;
 }
-
 #content-wrapper {
     margin-top: 1em;
 }
@@ -104,6 +103,9 @@ nav ul li a {
 
 .tile-item.half-height.bg-color-6 .caret {
     display: none;
+}
+.collapse-header {
+    padding-top: .75em;
 }
 .collapse-header h2 {
    padding: .4em 0 0 .4em;

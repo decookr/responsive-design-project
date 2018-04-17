@@ -31,7 +31,7 @@ h2 {
     right: 0px;
 }
 
-.onet-menu > a {
+.main-menu > a {
     text-decoration: none;
     font-size: 25px;
 }
@@ -56,13 +56,13 @@ body.open {
     overflow: hidden;
 }
 
-.onet-menu {
+.main-menu {
     border-bottom: 3px solid #363636;
     color: white;
     font-size: 20px;
     padding: 50px 20px 60px 20px;
 }
-.onet-menu h2 {
+.main-menu h2 {
     float:left;
     text-transform: uppercase;
 }
@@ -143,17 +143,21 @@ body.open {
     color: white;
     margin: 5px 3px 5px 3px;
 }
+
 .shortcut-btn-icon {
     font-size: 3em;
+    color: white;
 }
 .shortcut-btn-text {
     font-size: 0.7em;
     text-transform: uppercase;
+    color: white;
+
 }
 /*----- END SIDE NAV -----*/
 
 
-/*-----COLOR BAR -----*/
+/*-----TOP COLOR BAR -----*/
 .top-bar-caret {
     color: white;
     background-color: #425363;
@@ -169,6 +173,9 @@ body.open {
     background-color: #425363;
     text-align: center;
 }
+/*-----TOP COLOR BAR END-----*/
+
+
 /*-----HEADER -----*/
 
 #header-wrapper {
@@ -207,6 +214,8 @@ header h1 {
 .primary-nav {
     display: none;
 }
+/*-----HEADER END -----*/
+
 
 /*-----CONTENT -----*/
 
@@ -217,9 +226,7 @@ header h1 {
     padding: .75rem .2em 0 .75em;
     line-height: 1.2em;
 }
-h2 {
-    text-transform: uppercase;
-}
+
 
 .content-container {
     display: flex;
@@ -281,7 +288,7 @@ h2 {
 }
 
 .tile-item h2, .tile-item h3 {
-    font-size: 1em;
+    font-size: 1.1em;
 }
 .view-more {
     position: relative;
@@ -316,7 +323,6 @@ h2 {
 .collapse-header {
     padding: 2%;
     height: auto;
-    /* padding-bottom: 11.5%; */
     transition: 0.3s;
     color: #425363;
 }
@@ -432,7 +438,6 @@ h2 {
     flex-direction: column;
     justify-content: space-around;
 }
-
 /*-----CONTENT END -----*/
 
 
@@ -493,6 +498,7 @@ h2 {
     height: 15px;
     background-color: #5d7e95;
 }
+/*----- SOCIAL LINKS & CITYSCAPE END -----*/
 
 
 /*----- FOOTER -----*/
@@ -526,8 +532,6 @@ footer li {
     float: left;
 }
 
-
-/* TWO COLUMN LIST */
 #double li  {
      width:38%;
 }
@@ -541,6 +545,8 @@ footer a {
     color: white;
     font-size: .7em;
 }
+/*----- FOOTER END -----*/
+
 
 /*----- OTHER -----*/
 
@@ -557,6 +563,9 @@ footer a {
     .calendar-tile {
         width: 55px;
         height: 55px;
-        }
+    }
+    .half-width {
+        font-size: .7rem;
+    }
 }
 
