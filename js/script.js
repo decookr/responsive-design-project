@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 // menu toggle open/close
 $(document).ready(function () {
-    $(".sub-menu-header").click(function () {
+    $(".toggle-collapse").click(function () {
         $(this).parent().toggleClass("open");
     });
 });
