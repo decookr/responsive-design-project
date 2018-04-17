@@ -236,7 +236,6 @@ h2 {
     width: 100%;
     padding-bottom: 100%;
     color: white;
-    font-size: 1.2em;
     position: relative;
     margin-bottom: 4%;
 }
@@ -281,12 +280,14 @@ h2 {
     font-size: .6em;
 }
 
+.tile-item h2, .tile-item h3 {
+    font-size: 1em;
+}
 .view-more {
     position: relative;
     float: right;
     top: 10px;
     right: 10px;
-    font-size: 0.7em;
 }
 .view-more a {
     text-decoration: none;
@@ -370,20 +371,16 @@ h2 {
     transition: 0.3s;
 }
 
-/* .collapse-elements {
-
-} */
 .collapse-elements ul {
     padding: 0 1% 0 4%;
-    line-height: 1.1em;
 }
 .collapse-elements li {
     margin-left: 1.3em;
     list-style: square;
-    font-size: .8rem;
+    line-height: 1.3em;
 }
 .collapse-elements a {
-    font-size: .7rem;
+    font-size: .7em;
     color: #425363;
 }
 
@@ -433,7 +430,7 @@ h2 {
 .flex {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 /*-----CONTENT END -----*/
@@ -532,7 +529,7 @@ footer li {
 
 /* TWO COLUMN LIST */
 #double li  {
-     width:40%;
+     width:38%;
 }
 
 .footer-1-col {
@@ -554,8 +551,12 @@ footer a {
 }
 
 @media only screen and (max-width: 330px) {
-    .tile-item {
-        font-size: 95%;
+    .collapse-elements a {
+        font-size: .6em;
     }
+    .calendar-tile {
+        width: 55px;
+        height: 55px;
+        }
 }
 

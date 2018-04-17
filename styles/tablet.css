@@ -59,11 +59,8 @@ nav ul li a {
     text-decoration: none;
 }
 
-article div h2, h3 {
-    font-size: 1.0em;
-}
-
 /*-----CONTENT-----*/
+
 .sub-menu-header h2 {
     top: 0;
 }
@@ -75,7 +72,6 @@ article div h2, h3 {
 .item-container {
     width: 50%;
 }
-
 .item-container:nth-of-type(1) {
     order: 1;
 }
@@ -125,6 +121,9 @@ article div h2, h3 {
 }
 /*-----CONTENT END -----*/
 
+
+/*----- SOCIAL / LINKS / FOOTER -----*/
+
 .social-logos, .skyline-img-container {
     padding: 0 3em;
 }
@@ -143,8 +142,15 @@ footer {
 
  
     
-        
-        
+@media only screen and (min-width: 900px) and (max-width: 1139px) {
+    body {
+        font-size: 19px;
+    }
+    .calendar-tile {
+        width: 68px;
+        height: 68px;
+        }
+}
         
         
         

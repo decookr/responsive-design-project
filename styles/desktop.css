@@ -44,6 +44,7 @@
 .shortcut-btn-text {
     font-size: 0.7em;
 }
+
 /* <---- NAV BAR ----> */
 .welcome-user {
     display: flex;
@@ -84,7 +85,6 @@ nav ul li:nth-child(4){
 .item-container {
     width: 33.33%;
 }
-
 .item-container:nth-of-type(1) {
     order: 2;
 }
@@ -104,6 +104,10 @@ nav ul li:nth-child(4){
     order: 6;
 }
 
+.calendar-tile {
+    width: 65px;
+    height: 65px;
+}
 /* <---- SOCIAL LINKS ----> */
 
 .body-bottom-container {
@@ -158,8 +162,11 @@ footer h2 {
     height: 203.68px;
 }
 
-
-
+@media only screen and (min-width: 1400px) {
+    body {
+        font-size: 18px;
+    }
+}
 
 
 } /*end of the media query */
