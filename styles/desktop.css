@@ -52,17 +52,21 @@
 /* <---- DESKTOP NAV BAR ----> */
 .welcome-user {
     display: flex;
-    background-color: #a3a3a3;
+    background-color: #bcbdbd;
     flex-grow: 0;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
     font-size: .7em;
     text-transform: none;
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 25%;
 }
-.welcome-user span {
+.welcome-user > span {
+    padding-top: .2rem;
+}
+
+.uppercase {
     text-transform: uppercase;
 }
 
@@ -70,7 +74,7 @@ nav ul {
     justify-content: space-between;
 }
 nav ul li {
-    padding: 15px 0;
+    padding: 10px 0;
     text-align: left;
     flex-grow: 0;
 }

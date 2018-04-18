@@ -40,7 +40,7 @@ h2 {
     position: relative;
     transition: 0.5s;
     left: 0px;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 #main.open {
@@ -49,7 +49,7 @@ h2 {
 
 .closebtn {
     float: right;
-    color: white;
+    color: #ffffff;
 }
 
 body.open {
@@ -58,7 +58,7 @@ body.open {
 
 .main-menu {
     border-bottom: 3px solid #363636;
-    color: white;
+    color: #ffffff;
     font-size: 20px;
     padding: 50px 20px 60px 20px;
 }
@@ -71,7 +71,7 @@ body.open {
     border-bottom: 3px solid #363636;
 }
 .sub-menu-header {
-    color: white;
+    color: #ffffff;
     padding: 15px;
 }
 
@@ -126,7 +126,7 @@ body.open {
     list-style: square;
     padding: 9px 0;
     margin-left:17%;
-    color: white;
+    color: #ffffff;
     height: auto;
 }  
 
@@ -140,18 +140,18 @@ body.open {
     width: 70px;
     background-color: #f98d29;
     border: none;
-    color: white;
+    color: #ffffff;
     margin: 5px 3px 5px 3px;
 }
 
 .shortcut-btn-icon {
     font-size: 3em;
-    color: white;
+    color: #ffffff;
 }
 .shortcut-btn-text {
     font-size: 0.7em;
     text-transform: uppercase;
-    color: white;
+    color: #ffffff;
 
 }
 /*----- END SIDE NAV -----*/
@@ -159,7 +159,7 @@ body.open {
 
 /*-----TOP COLOR BAR -----*/
 .top-bar-caret {
-    color: white;
+    color: #ffffff;
     background-color: #435363;
     display: block;
     border-radius: 50%;
@@ -193,11 +193,11 @@ header h1 {
 
 .header-btn-sm {
     background-color: #003DA7;
-    color: white;
+    color: #ffffff;
     border: none;
-    height: 45px;
-    width: 45px;
-    font-size: 1.6em;
+    height:50px;
+    width: 50px;
+    font-size: 1.9em;
     margin-left: 0.3em;
     text-align: center;
     float:right;
@@ -333,7 +333,7 @@ header h1 {
 
 .collapse-container-full .collapse-header {
     background-color: #f98d29;
-    color: white;
+    color: #ffffff;
     margin-bottom: .5em;
 }
 
@@ -396,7 +396,7 @@ header h1 {
     margin-right: .5em;
 }
 .collapse-item {
-    color: rgb(3, 3, 3);
+    color: #464646;
     padding: 1% 0;
 }
 
@@ -410,7 +410,7 @@ header h1 {
 }
 .calendar-text {
     position: absolute;
-    color: white;
+    color: #ffffff;
     bottom: 2px;
     right: 4px;
     font-size: .8em;
@@ -505,7 +505,7 @@ header h1 {
 
 footer {
     background-color: #435363;
-    color: white;
+    color: #ffffff;
     padding: 1em 1em 6% 1em;
 }
 
@@ -542,7 +542,7 @@ footer li {
 }
 
 footer a {
-    color: white;
+    color: #ffffff;
     font-size: .7em;
 }
 /*----- FOOTER END -----*/
