@@ -3,6 +3,9 @@
 #header-wrapper, #content-wrapper {
     margin: 0 5%;
 }
+#content-wrapper {
+    margin-top: 1em;
+}
 
 /*----- NAVIGATION -----*/
 .site-nav-mobile {
@@ -14,7 +17,7 @@
 }
 
 #nav-wrapper {
-    background-color: #c9c8c7;
+    background-color: #ebebeb;
     padding: 0 5%;
 }
 
@@ -35,7 +38,7 @@ nav ul {
 }
 
 nav ul li {
-    padding: 15px 0;
+    padding: 10px 0;
     text-align: center;
     flex-grow: 1;
 }
@@ -51,69 +54,77 @@ nav ul li:nth-child(4){
 }
 nav ul li a { 
     display: block;
-    color: black;
+    color: #000000;
     text-decoration: none;
 }
 
-article div h2, h3 {
-    font-size: 1.0em;
-}
-.tile-colorbar.market-news.sub-menu-header{
-    padding-bottom: 0;
-    padding-top: 13px;
-    padding-left: 10px;
+/*-----CONTENT-----*/
+
+.content-container {
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-.market-news {
-    padding-bottom: 47.5%;
+.item-container {
+    width: 50%;
+}
+.item-container:nth-of-type(1) {
+    order: 1;
+}
+.item-container:nth-of-type(2) {
+    order: 3;
+}
+.item-container:nth-of-type(3) {
+    order: 2;
+}
+.item-container:nth-of-type(4) {
+    order: 4;
+}
+.item-container:nth-of-type(5) {
+    order: 5;
+}
+.item-container:nth-of-type(6) {
+    order: 6;
 }
 
-.market-news .tile-element-links  {
-    height: 8em;
-}
-
-.market-news.open .caret {
-    display: none;
-}
-.market-news .caret {
-    display: none;
-}
-
-.tile-colorbar.sub-menu-header h2 {
-    padding-left:3px;
-}
-.collapse-container {
+.tile-item.half-height.bg-color-6 {
     height: 0;
-    padding-bottom:100%;
-    transition: 0.3s;
-}
-.collapse-container.open {
-    height: 0;
-    padding-bottom:100%;
-    transition: 0.3s;
-}
-
-.collapse-container .tile-list {
-    height:308px;
+    padding-bottom: 48%;
     overflow: hidden;
     transition: 0.3s;
 }
 
-.collapse-container.open .tile-list {
-    height:308px;
-    transition: 0.3s;
-}
-.collapse-container.open .caret {
-    display: none;
-
-}
-.collapse-container .caret {
-    display: none;
+.tile-item.half-height.bg-color-6.open .caret {
+    display: none
 }
 
-.tile-colorbar h2 {
-    top:0;
+.tile-item.half-height.bg-color-6 .caret {
+    display: none;
 }
+.collapse-header {
+    padding-top: .75em;
+}
+.collapse-header h2 {
+   padding: .4em 0 0 .4em;
+   position: relative;
+   bottom: 3px;
+}
+.tile-item.collapse-container-full {
+    padding-bottom: 100%;
+}
+
+.tile-item.collapse-container-full.open .caret {
+    display: none;
+}
+
+.tile-item.collapse-container-full .caret {
+    display: none;
+}
+
+/*-----CONTENT END -----*/
+
+
+/*----- SOCIAL / LINKS / FOOTER -----*/
 
 .social-logos, .skyline-img-container {
     padding: 0 3em;
@@ -130,20 +141,18 @@ article div h2, h3 {
 footer {
     padding: 1em 3em 4% 3em;
 }
-/*----- 12 COLUMN LAYOUT -----*/
-.column-3, .column-4, .column-6, .column-9, .column-12 {
-    float: left;
-}
-.column-3 {width: 25%;}
-.column-4 {width: 50%;}
-.column-6 {width: 50%;}
-.column-9 {width: 75%;}
-
 
  
     
-        
-        
+@media only screen and (min-width: 900px) and (max-width: 1139px) {
+    body {
+        font-size: 19px;
+    }
+    .calendar-tile {
+        width: 68px;
+        height: 68px;
+        }
+}
         
         
         
